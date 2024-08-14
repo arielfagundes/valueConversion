@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de valores</title>
+    <link rel="stylesheet" href="degrees.css">
+    <link rel="stylesheet" href="operators.css">
+    <link rel="stylesheet" href="values.css">
+    
+</head>
+<body>
+    <!--conversor de graus-->
+    <h1>conversões de valores variados</h1>
+<div class="graus">
+    <fieldset class="fieldsetGraus">
+        <p style="text-align: center;"><strong>conversões de graus (°C °F K)</strong></p>
+
+        <form id="tempCF">
+            <p class="CF">Celsius(°C) para Fahrenheit(°F):</p>
+            <input id="degreesCF" type="text" placeholder="°C">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoF"></span>
+        </form>
+
+        <form id="tempFC">
+            <p class="FC">Fahrenheit(°F) para Celsius(°C):</p>
+            <input id="degreesFC" type="text" placeholder="°F">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoC"></span>
+        </form>
+
+        <form id="tempCK">
+            <p class="CK">Celsius(°C) para  Kelvin(K):</p>
+            <input id="degreesCK" type="text" placeholder="°C">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoK"></span>
+        </form>
+
+        <form id="tempKC">
+            <p class="KC">Kelvin(K) para Celsius(°C):</p>
+            <input id="degreesKC" type="text" placeholder="K">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoKC"></span>
+        </form>
+        <button onclick="resetD()" id="resetD">Reset</button>
+        </fieldset>
+</div>
+<script src="degrees.js"></script>
+
+<!--Divisão de tabelas - Operadores aritméticos-->
+
+<div class="operacoes">
+    <fieldset class="fieldsetOperacoes">
+        <p><strong>soma(+), sub(-), mult(x), div(/)</strong></p>
+
+        <form id="sum">
+            <p class="sum">SOMA:</p>
+            <input id="sN1" type="text" placeholder="n1">
+            <p class="sumS">+</p>
+            <input id="sN2" type="text" placeholder="n2">
+            <button type="submit"><strong>=</strong></button>
+            <span id="telaResultadoS"></span>
+        </form>
+
+        <form id="dif">
+            <p class="dif">SUBTRAÇÃO:</p>
+            <input id="dN1" type="text" placeholder="n1">
+            <p class="difD">-</p>
+            <input id="dN2" type="text" placeholder="n2">
+            <button type="submit"><strong>=</strong></button>
+            <span id="telaResultadoD"></span>
+        </form>
+
+        <form id="mult">
+            <p class="mult">MULTIPLICAÇÃO:</p>
+            <input id="mN1" type="text" placeholder="n1">
+            <p class="multM">x</p>
+            <input id="mN2" type="text" placeholder="n2">
+            <button type="submit"><strong>=</strong></button>
+            <span id="telaResultadoM"></span>
+        </form>
+
+        <form id="div">
+            <p class="div">DIVISÃO:</p>
+            <input id="divN1" type="text" placeholder="n1">
+            <p class="divD">/</p>
+            <input id="divN2" type="text" placeholder="n2">
+            <button type="submit"><strong>=</strong></button>
+            <span id="telaResultadoDiv"></span>
+        </form>
+        <button onclick="resetO()" id="resetO">Reset</button>
+    </fieldset>
+</div>
+<script src="operators.js"></script>
+
+<!--Divisão de tabelas - Conversão de valores de moedas-->
+
+<div class="valores">
+    <fieldset class="fieldsetValores">
+        <p style="text-align: center;"><strong>Real(R$) / Dólar($) / Euro(£)</strong></p>
+
+        <form id="rD">
+            <p class="rD">Real(R$) para Dólar($):</p>
+            <input id="valRD" type="text" placeholder="R$">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoRD"></span>
+        </form>
+
+        <form id="dR">
+            <p class="dR">Dólar($) para Real(R$):</p>
+            <input id="valDR" type="text" placeholder="$">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoDR"></span>
+        </form>
+
+        <form id="rE">
+            <p class="rE">Real(R$) para Euro(£):</p>
+            <input id="valRE" type="text" placeholder="R$">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoRE"></span>
+        </form>
+
+        <form id="eR">
+            <p class="eR">Euro(£) para Real(R$):</p>
+            <input id="valER" type="text" placeholder="£">
+            <button type="submit"><strong>Converter</strong></button>
+            <span id="telaResultadoER"></span>
+        </form>
+        <button onclick="resetV()" id="resetV">Reset</button>
+    </fieldset>
+</div>
+<script src="values.js"></script>
+
+</body>
+</html>

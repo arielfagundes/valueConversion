@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(99, 136, 237);
+}
+
+h1{
+    text-align: center;
+}
+
+.fieldsetGraus{
+    background: linear-gradient(to right, rgb(255, 70, 50), rgb(249, 194, 92));
+    padding: 0px 10px 20px 10px;
+    width: 250px;
+    height: 350px;
+    position: relative;
+    right: 350px;
+    font-size: 16px;
+    margin: auto;
+}
+
+#degreesCF, #degreesFC, #degreesCK, #degreesKC {
+    width: 70px;
+}
+
+p{
+    font-size: 13px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#telaResultadoF, #telaResultadoC, #telaResultadoK, #telaResultadoKC {
+    border: 2px solid rgb(243, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    width: 75px;
+    height: 20px;
+    position: relative;
+    left: 170px;
+    bottom: 23px;
+    background-color: #FFF;
+}
+
+#resetD{
+    position: relative;
+    left: 100px;
+}

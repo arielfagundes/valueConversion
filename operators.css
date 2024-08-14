@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.fieldsetOperacoes{
+    background-color: rgba(196, 2, 255, 0.721);
+    padding: 0px 10px 20px 10px;
+    font-size: 16px;
+    width: 250px;
+    height: 350px;
+    position: relative;
+    bottom: 374px;
+    margin: auto;
+}
+
+#sN1, #sN2, #dN1, #dN2, #mN1, #mN2, #divN1, #divN2{
+    width: 50px;
+    text-align: center;
+}
+
+.sumS, .difD, .multM, .divD{
+    display: inline;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    Font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#telaResultadoS, #telaResultadoD, #telaResultadoM, #telaResultadoDiv{
+    border: 2px solid rgb(243, 0, 0);
+    border-radius: 5px;
+    display: flex;
+    width: 70px;
+    height: 20px;
+    position: relative;
+    left: 170px;
+    bottom: 23px;
+    background-color: #FFF;
+}
+
+#resetO{
+    position: relative;
+    left: 100px;
+}
